@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif">
+  <rect width="800" height="420" fill="#0d0d0d" rx="16"/>
+
+  <!-- Title -->
+  <text x="400" y="38" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="600" letter-spacing="0.3">Display Arrangement Toggle</text>
+  <text x="400" y="58" text-anchor="middle" fill="#555" font-size="12">powered by displayplacer</text>
+
+  <!-- ── SIDE-BY-SIDE layout (left panel) ── -->
+  <text x="160" y="90" text-anchor="middle" fill="#888" font-size="11" font-weight="500" letter-spacing="1" text-transform="uppercase">SIDE BY SIDE</text>
+
+  <!-- MacBook (left screen) -->
+  <rect x="30" y="105" width="90" height="58" rx="5" fill="#1a1a1a" stroke="#3a3a3a" stroke-width="1.5"/>
+  <rect x="34" y="109" width="82" height="48" rx="3" fill="#111" stroke="#2a2a2a" stroke-width="1"/>
+  <!-- MacBook screen glow -->
+  <rect x="36" y="111" width="78" height="44" rx="2" fill="#0a1628" opacity="0.8"/>
+  <text x="75" y="136" text-anchor="middle" fill="#4a7fd4" font-size="8" font-weight="500">MacBook</text>
+  <text x="75" y="147" text-anchor="middle" fill="#3a5a94" font-size="7">1512×982</text>
+  <!-- MacBook base -->
+  <rect x="55" y="163" width="40" height="3" rx="1" fill="#2a2a2a"/>
+  <rect x="42" y="166" width="66" height="2" rx="1" fill="#222"/>
+
+  <!-- Ultrawide (right screen) -->
+  <rect x="135" y="98" width="130" height="80" rx="5" fill="#1a1a1a" stroke="#3a3a3a" stroke-width="1.5"/>
+  <rect x="139" y="102" width="122" height="70" rx="3" fill="#111" stroke="#2a2a2a" stroke-width="1"/>
+  <rect x="141" y="104" width="118" height="66" rx="2" fill="#0a1a10" opacity="0.8"/>
+  <text x="200" y="136" text-anchor="middle" fill="#4ad47a" font-size="8" font-weight="600">34″ Ultrawide</text>
+  <text x="200" y="148" text-anchor="middle" fill="#3a9458" font-size="7">3440×1440  ★ main</text>
+  <!-- Ultrawide stand -->
+  <rect x="188" y="178" width="24" height="4" rx="1" fill="#2a2a2a"/>
+  <rect x="180" y="182" width="40" height="2" rx="1" fill="#222"/>
+
+  <!-- Side-by-side origin labels -->
+  <text x="75" y="195" text-anchor="middle" fill="#444" font-size="9">−1512, 360</text>
+  <text x="200" y="195" text-anchor="middle" fill="#444" font-size="9">0, 0</text>
+
+  <!-- ── TOGGLE ARROW (center) ── -->
+  <g transform="translate(400, 140)">
+    <!-- Arrow shaft -->
+    <line x1="-62" y1="0" x2="62" y2="0" stroke="#333" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <!-- Left arrowhead -->
+    <polygon points="-62,0 -50,-6 -50,6" fill="#555"/>
+    <!-- Right arrowhead -->
+    <polygon points="62,0 50,-6 50,6" fill="#555"/>
+    <!-- Toggle label -->
+    <rect x="-38" y="-14" width="76" height="28" rx="6" fill="#1a1a1a" stroke="#2a2a2a" stroke-width="1"/>
+    <text x="0" y="-2" text-anchor="middle" fill="#aaa" font-size="10" font-weight="500">toggle</text>
+    <text x="0" y="11" text-anchor="middle" fill="#555" font-size="9">auto-detects</text>
+  </g>
+
+  <!-- ── UP-AND-DOWN layout (right panel) ── -->
+  <text x="620" y="90" text-anchor="middle" fill="#888" font-size="11" font-weight="500" letter-spacing="1">UP AND DOWN</text>
+
+  <!-- Ultrawide (top screen) -->
+  <rect x="490" y="98" width="260" height="80" rx="5" fill="#1a1a1a" stroke="#3a3a3a" stroke-width="1.5"/>
+  <rect x="494" y="102" width="252" height="70" rx="3" fill="#111" stroke="#2a2a2a" stroke-width="1"/>
+  <rect x="496" y="104" width="248" height="66" rx="2" fill="#0a1a10" opacity="0.8"/>
+  <text x="620" y="133" text-anchor="middle" fill="#4ad47a" font-size="9" font-weight="600">34″ Ultrawide</text>
+  <text x="620" y="146" text-anchor="middle" fill="#3a9458" font-size="7.5">3440×1440  ★ main  ·  0, 0</text>
+  <!-- Ultrawide stand -->
+  <rect x="608" y="178" width="24" height="4" rx="1" fill="#2a2a2a"/>
+  <rect x="600" y="182" width="40" height="2" rx="1" fill="#222"/>
+
+  <!-- MacBook (bottom screen) -->
+  <rect x="555" y="197" width="130" height="80" rx="5" fill="#1a1a1a" stroke="#3a3a3a" stroke-width="1.5"/>
+  <rect x="559" y="201" width="122" height="70" rx="3" fill="#111" stroke="#2a2a2a" stroke-width="1"/>
+  <rect x="561" y="203" width="118" height="66" rx="2" fill="#0a1628" opacity="0.8"/>
+  <text x="620" y="236" text-anchor="middle" fill="#4a7fd4" font-size="9" font-weight="500">MacBook</text>
+  <text x="620" y="249" text-anchor="middle" fill="#3a5a94" font-size="7.5">1512×982  ·  949, 1440</text>
+  <!-- MacBook base -->
+  <rect x="600" y="277" width="40" height="3" rx="1" fill="#2a2a2a"/>
+  <rect x="590" y="280" width="60" height="2" rx="1" fill="#222"/>
+
+  <!-- ── HOW IT WORKS section ── -->
+  <line x1="40" y1="315" x2="760" y2="315" stroke="#1f1f1f" stroke-width="1"/>
+
+  <text x="400" y="344" text-anchor="middle" fill="#555" font-size="11">
+    <tspan>1. </tspan><tspan fill="#888">Raycast runs script  </tspan>
+    <tspan fill="#333">→  </tspan>
+    <tspan>2. </tspan><tspan fill="#888">reads current origins via </tspan><tspan fill="#4ad47a" font-family="monospace">displayplacer list</tspan>
+    <tspan fill="#333">  →  </tspan>
+    <tspan>3. </tspan><tspan fill="#888">applies new layout</tspan>
+  </text>
+
+  <!-- brew install pill -->
+  <rect x="258" y="366" width="284" height="32" rx="8" fill="#141414" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="400" y="387" text-anchor="middle" font-family="'SF Mono', Menlo, monospace" fill="#4ad47a" font-size="12">brew install displayplacer</text>
+
+  <text x="400" y="412" text-anchor="middle" fill="#333" font-size="10">add this script to Raycast  ·  Script Commands  ·  Add Directory</text>
+</svg>
